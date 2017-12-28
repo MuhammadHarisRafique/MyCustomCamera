@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		4D62585C1FF4EE5E00B9C7E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62585B1FF4EE5E00B9C7E2 /* AppDelegate.swift */; };
-		4D62585E1FF4EE5E00B9C7E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62585D1FF4EE5E00B9C7E2 /* ViewController.swift */; };
 		4D6258611FF4EE5E00B9C7E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D62585F1FF4EE5E00B9C7E2 /* Main.storyboard */; };
 		4D6258631FF4EE5E00B9C7E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D6258621FF4EE5E00B9C7E2 /* Assets.xcassets */; };
 		4D6258661FF4EE5E00B9C7E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6258641FF4EE5E00B9C7E2 /* LaunchScreen.storyboard */; };
+		4D62586E1FF4EF0E00B9C7E2 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62586D1FF4EF0E00B9C7E2 /* CameraController.swift */; };
+		4D6258701FF4EF3600B9C7E2 /* PhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D62586F1FF4EF3600B9C7E2 /* PhotoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D6258581FF4EE5E00B9C7E2 /* MyCustomCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCustomCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D62585B1FF4EE5E00B9C7E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D62585D1FF4EE5E00B9C7E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D6258601FF4EE5E00B9C7E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D6258621FF4EE5E00B9C7E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D6258651FF4EE5E00B9C7E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D6258671FF4EE5E00B9C7E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D62586D1FF4EF0E00B9C7E2 /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		4D62586F1FF4EF3600B9C7E2 /* PhotoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				4D62585B1FF4EE5E00B9C7E2 /* AppDelegate.swift */,
-				4D62585D1FF4EE5E00B9C7E2 /* ViewController.swift */,
 				4D62585F1FF4EE5E00B9C7E2 /* Main.storyboard */,
 				4D6258621FF4EE5E00B9C7E2 /* Assets.xcassets */,
 				4D6258641FF4EE5E00B9C7E2 /* LaunchScreen.storyboard */,
 				4D6258671FF4EE5E00B9C7E2 /* Info.plist */,
+				4D62586D1FF4EF0E00B9C7E2 /* CameraController.swift */,
+				4D62586F1FF4EF3600B9C7E2 /* PhotoController.swift */,
 			);
 			path = MyCustomCamera;
 			sourceTree = "<group>";
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D62585E1FF4EE5E00B9C7E2 /* ViewController.swift in Sources */,
+				4D6258701FF4EF3600B9C7E2 /* PhotoController.swift in Sources */,
+				4D62586E1FF4EF0E00B9C7E2 /* CameraController.swift in Sources */,
 				4D62585C1FF4EE5E00B9C7E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
